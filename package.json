@@ -1,0 +1,21 @@
+{
+  "name": "syno_api",
+  "version": "1.0.0",
+  "description": "将本项目搭建在任何有网络的地方上，可以通过RESTful API调用群晖nas接口，可用于开发前端项目，也可用于定制自己专属的管理系统，本项目持续更新中",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "群晖",
+    "synology"
+  ],
+  "author": "wushanglin",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "forever": "^4.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
