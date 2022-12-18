@@ -1,6 +1,6 @@
 # 运行本项目必须要遵守一下规则
 
-- node.js版本必须要大于或等于17.5
+- node.js版本必须要大于或等于18
 - 填写好config.js文件
 
 # 除了获取api接口以及user接口无需cookie=sid，其余请求数据必须带上cookie=sid
