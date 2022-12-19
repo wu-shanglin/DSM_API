@@ -1,6 +1,7 @@
 module.exports = {
-    domain: 'www.wushanglin.site', // 群晖的域名或者ip
+    domain: 'www.test.site', // 群晖的域名或者ip
     port: 5000, // 端口号
     https: false,// 是否为https
-    apiPort: 80 // api启动的端口
+    apiPort: 80, // api启动端口
+    responseTimeout: 10 // 请求多少秒后超时
 }
